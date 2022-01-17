@@ -1,0 +1,143 @@
+@import "fonts.css";
+@import "scrollbar.css";
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --gold: #bdae82;
+    --font-size-h1: 60px;
+    --font-size-h2: 40px;
+    --font-size-main: 20px;
+    --font-size-small: 18px;
+    --font-h-reg: Merriweather-Regular, sans-serif, serif;
+    --font-h-bold: Merriweather-Bold, sans-serif, serif;
+    --font-main-reg: Inter-Regular, sans-serif, serif;
+    --font-main-bold: Inter-Bold, sans-serif, serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-main);
+    font-family: var(--font-main-reg);
+    color: var(--white);
+    background-color: var(--black);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+a:hover,
+a:active {
+    color: var(--gold);
+}
+
+p, ul, h1, h2, h3, h4, pre {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    font-family: var(--font-h-bold);
+    color: var(--white);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    font-family: var(--font-h-bold);
+    color: var(--gold);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-right: 16px;
+    background: url('../assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: var(--white);
+    -webkit-mask-image: url('../assets/svg/logo.svg');
+    -webkit-mask-size: cover;
+    transition: 1s;
+}
+
+.logo:hover {
+    background-color: var(--gold);
+}
+
+.nav {
+    margin-left: 54%;
+    align-self: center;
+}
+
+.nav .nav-list {
+    display: flex;
+}
+
+.nav .nav-item {
+    padding: 0 15px;
+}
+
+.nav .nav-link {
+    color: var(--white);
+    transition: .5s;
+}
+
+.nav .nav-link:hover {
+    color: var(--gold);
+    transition: .5s;
+}
+
+.header-container .lng  {
+    align-self: center;
+    margin-right: 39px;
+}
+
+.header-container .lng .slash {
+    padding: 0 10px;
+}
+
+.header-container .lng .en {
+    color: var(--gold);
+    cursor: default;
+}
+
+.header-container .lng .ru {
+    color: var(--white);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header-container .lng .ru:hover {
+    color: var(--gold);
+}
+
