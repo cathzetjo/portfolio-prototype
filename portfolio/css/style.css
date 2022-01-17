@@ -423,3 +423,64 @@ textarea {
     font-family: var(--font-main-reg);
     color: var(--gold);
 }
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 150px;
+    justify-content: space-between;
+}
+
+footer .general-info {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 22px;
+}
+
+footer p,
+footer a {
+    color: var(--white);
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px
+}
+
+.instagram,
+.facebook,
+.twitter,
+.pinterest {
+    width: 32px;
+    height: 32px;
+    background-color: var(--white);
+    -webkit-mask-size: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.instagram:hover,
+.facebook:hover,
+.twitter:hover,
+.pinterest:hover {
+    background-color: var(--gold);
+}
+
+.instagram {
+    -webkit-mask-image: url('../assets/svg/inst.svg');
+}
+
+.facebook {
+    -webkit-mask-image: url('../assets/svg/fb.svg');
+}
+.twitter {
+    -webkit-mask-image: url('../assets/svg/tw.svg');
+}
+.pinterest {
+    -webkit-mask-image: url('../assets/svg/pinterest.svg');
+}
+
+
