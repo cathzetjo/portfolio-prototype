@@ -305,6 +305,7 @@ h2 span {
     -webkit-mask-size: cover;
     transition: 1s;
     cursor: pointer;
+    border: none;
 }
 
 
