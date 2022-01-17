@@ -276,3 +276,40 @@ h2 span {
     padding-left: 20px;
 }
 
+.player {
+    margin-top: 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.player .picture {
+    width: 1400px;
+    height: 705px;
+    background-image: url('../assets/img/video-player.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.player .play {
+    position: absolute;
+    top: 289px;
+    width: 129.86px;
+    height: 130px;
+    background-color: var(--white);
+    -webkit-mask-image: url('../assets/svg/play.svg');
+    -webkit-mask-size: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.player .play:hover {
+    background-color: var(--gold);
+    transition: 1s;
+}
+
