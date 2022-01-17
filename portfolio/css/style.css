@@ -74,8 +74,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-right: 16px;
+    padding: 20px 0 20px 41px;
     background: url('../assets/img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center 0;
@@ -117,7 +116,7 @@ h2 {
     transition: .5s;
 }
 
-.header-container .lng  {
+.header-container .lng {
     align-self: center;
     margin-right: 39px;
 }
@@ -139,5 +138,36 @@ h2 {
 
 .header-container .lng .ru:hover {
     color: var(--gold);
+}
+
+.hero-container {
+    background-image: url('../assets/img/bg.jpg');
+    background-position: center -90px;
+    background-repeat: no-repeat;
+    padding: 182px 80px;
+    height: 456px;
+}
+
+.hero-container p {
+    padding-top: 33px;
+    width: 470px;
+    line-height: 40px;
+}
+
+.hero-container button {
+    margin-top: 25px;
+    width: 219px;
+    height: 54px;
+    background-color: var(--gold);
+    color: var(--black);
+    font-size: var(--font-size-main);
+    border: none;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.hero-container button:hover {
+    color: var(--white);
+    transition: .8s;
 }
 
