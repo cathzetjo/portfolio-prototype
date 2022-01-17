@@ -68,6 +68,11 @@ h3 {
     font-size: var(--font-size-main);
 }
 
+.container button:hover {
+    color: var(--white);
+    transition: .8s;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -171,11 +176,6 @@ h3 {
     transition: .8s;
 }
 
-.hero-container button:hover {
-    color: var(--white);
-    transition: .8s;
-}
-
 .section-title {
     width: 49%;
     background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
@@ -183,6 +183,7 @@ h3 {
     margin: 0 auto;
     padding-top: 115px;
 }
+
 h2 span {
     background-color: var(--black);
     padding: 0 20px;
@@ -240,5 +241,38 @@ h2 span {
 }
 
 .skills-items .skill-item:nth-child(4) p {
+}
+
+.portfolio-buttons {
+    display: flex;
+    padding: 61px 0;
+    justify-content: center;
+    gap: 5px
+}
+
+.portfolio-buttons button {
+    width: 220px;
+    height: 55px;
+    border: 1px solid var(--gold);
+    font-size: var(--font-size-main);
+    cursor: pointer;
+    transition: .8s;
+}
+
+.portfolio-buttons .button-not-active {
+    background-color: transparent;
+    color: var(--gold);
+}
+
+.portfolio-buttons .button-active {
+    background-color: var(--gold);
+    color: var(--black);
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-left: 20px;
 }
 
