@@ -10,7 +10,7 @@
     }
 
     .logo {
-        margin-right: 60%;
+        margin-right: 59%;
     }
 
     .header-container {
@@ -18,11 +18,11 @@
     }
 
     .header-container .lng .slash {
-        padding: 0 20px 0 11px;
+        padding: 0 20px 0 7px;
     }
 
     .burger-menu {
-        margin-right: 52px;
+        margin-right: 69px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -80,18 +80,15 @@
         margin-top: 61px;
     }
 
-    .skills {
-        padding-left: 17px;
-    }
-
     .section-title {
+        width: 48%;
         padding-top: 100px;
         background-image: linear-gradient(to top, #000 29px, #bdae82 32px, #bdae82 0px, #000 0px);
     }
 
     .skills-items {
         padding-top: 54px;
-        padding-left: 43px;
+        padding-left: 59px;
         justify-content: normal;
         gap: 45px;
     }
@@ -112,12 +109,12 @@
     }
 
     .portfolio {
-        padding-top: 49px;
-        padding-left: 18px;
+        padding-top: 51px;
+        padding-left: 2px;
     }
 
     .portfolio-buttons {
-        padding: 61px 35px;
+        padding: 59px 50px;
         flex-wrap: wrap;
     }
 
@@ -126,42 +123,43 @@
     }
 
     .video .section-title {
-        padding-left: 16px;
-        margin-top: -3px;
+        padding-left: 1px;
+        margin-top: 1px;
+    }
+
+    .player {
+        margin-top: 58px;
     }
 
     .player .picture {
+        height: 418px;
         background-position: -4px 0;
         background-size: auto 417px;
     }
 
     .player .play {
         top: 175px;
-        margin-left: 14px;
+        margin-left: -5px;
         width: 64.7px;
         height: 64.7px;
     }
 
     .price .section-title {
-        padding-left: 16px;
-        padding-top: 0;
-        margin-bottom: -2px;
+        padding-top: 99px;
+        margin-bottom: -4px;
+    }
+
+    .price-items {
+        padding: 63px 0 59px 0px;
     }
 
     .price-item {
         width: 414px;
-    }
-
-    .price-item:nth-child(1) {
-        margin-bottom: 24px;
-    }
-
-    .price-item:nth-child(2) {
-        margin-bottom: 26px;
+        margin-bottom: 25px;
     }
 
     .price-item:nth-child(3) {
-        margin-bottom: 20px;
+        margin-bottom: 21px;
     }
 
     .contacts {
@@ -171,13 +169,12 @@
     }
 
     .contacts-form {
-        width: 435px;
         margin: 0 auto;
-        padding-right: 0;
+        padding-right: 0px;
     }
 
     .contacts h2 {
-        padding: 72px 0 52px 16px;
+        padding: 72px 0 52px 0;
         text-align: center;
     }
 
@@ -188,8 +185,8 @@
     footer .container {
         flex-direction: column;
         min-height: 190px;
-        margin-left: 36px;
-        margin-top: -4px;
+        margin-left: 17px;
+        margin-top: -6px;
         justify-content: space-evenly;
     }
 
