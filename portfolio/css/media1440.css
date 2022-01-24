@@ -1,0 +1,19 @@
+@media (max-width: 1440px) {
+    .skills-items {
+        justify-content: space-around;
+    }
+    .nav {
+        margin-left: 0;
+    }
+    .photos {
+        justify-content: space-around;
+    }
+    .price-items {
+        justify-content: space-around;
+    }
+
+    .player .picture {
+        width: 100vw;
+        height: 100vh;
+    }
+}
