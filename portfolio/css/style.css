@@ -129,6 +129,7 @@ h3 {
 
 .header-container .lng {
     align-self: center;
+    font-family: var(--font-main-bold);
 }
 
 .header-container .lng .slash {
@@ -482,6 +483,10 @@ footer a {
 }
 .pinterest {
     -webkit-mask-image: url('../assets/svg/pinterest.svg');
+}
+
+.burger-menu {
+    display: none;
 }
 
 

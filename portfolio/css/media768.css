@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+
+    :root {
+        --font-size-h1: 31px;
+        --font-size-h2: 32px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 60%;
+    }
+
+    .header-container {
+        padding: 20px 0 0 60px;
+    }
+
+    .header-container .lng .slash {
+        padding: 0 20px 0 11px;
+    }
+
+    .burger-menu {
+        margin-right: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        user-select: none;
+        z-index: 1;
+    }
+
+    .burger-menu span {
+        width: 126%;
+        height: 3px;
+        background: var(--white);
+        margin: 4px 0;
+        z-index: 2;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .burger-menu.open span:nth-child(1) {
+        transform: rotate(-45deg) translate(-10px, 10px);
+    }
+
+    .burger-menu.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-menu.open span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .header-container {
+        background-position: -5px -30px;
+        background-size: auto 620px;
+    }
+
+    .hero {
+        background-position: -5px -100px;
+        background-size: auto 620px;
+    }
+
+    .hero-container {
+        padding: 110px 60px;
+        height: 300px;
+    }
+
+    .hero-container p {
+        padding-top: 32px;
+        width: 400px;
+        line-height: 24px;
+    }
+
+    .hero-container button {
+        margin-top: 61px;
+    }
+
+    .skills {
+        padding-left: 17px;
+    }
+
+    .section-title {
+        padding-top: 100px;
+        background-image: linear-gradient(to top, #000 29px, #bdae82 32px, #bdae82 0px, #000 0px);
+    }
+
+    .skills-items {
+        padding-top: 54px;
+        padding-left: 43px;
+        justify-content: normal;
+        gap: 45px;
+    }
+
+    .skill-item {
+        width: 300px;
+        padding: 80px 0 30px;
+    }
+
+    .skills-items .skill-item p {
+        padding: 0;
+        line-height: 20px;
+    }
+
+    .skills-items .skill-item:nth-child(4) p {
+        padding-left: 7px;
+        width: 285px;
+    }
+
+    .portfolio {
+        padding-top: 49px;
+        padding-left: 18px;
+    }
+
+    .portfolio-buttons {
+        padding: 61px 35px;
+        flex-wrap: wrap;
+    }
+
+    .photos {
+        padding-left: 0;
+    }
+
+    .video .section-title {
+        padding-left: 16px;
+        margin-top: -3px;
+    }
+
+    .player .picture {
+        background-position: -4px 0;
+        background-size: auto 417px;
+    }
+
+    .player .play {
+        top: 175px;
+        margin-left: 14px;
+        width: 64.7px;
+        height: 64.7px;
+    }
+
+    .price .section-title {
+        padding-left: 16px;
+        padding-top: 0;
+        margin-bottom: -2px;
+    }
+
+    .price-item {
+        width: 414px;
+    }
+
+    .price-item:nth-child(1) {
+        margin-bottom: 24px;
+    }
+
+    .price-item:nth-child(2) {
+        margin-bottom: 26px;
+    }
+
+    .price-item:nth-child(3) {
+        margin-bottom: 20px;
+    }
+
+    .contacts {
+        background-position: -233px 0;
+        background-size: auto 600px;
+        min-height: 600px;
+    }
+
+    .contacts-form {
+        width: 435px;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    .contacts h2 {
+        padding: 72px 0 52px 16px;
+        text-align: center;
+    }
+
+    .contacts-btn {
+        margin-left: 115px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        min-height: 190px;
+        margin-left: 36px;
+        margin-top: -4px;
+        justify-content: space-evenly;
+    }
+
+    footer .general-info {
+        margin-top: 2px;
+        margin-left: -36px;
+    }
+
+    footer .rss {
+        margin-top: -15px;
+        margin-left: -18px;
+    }
+
+}
