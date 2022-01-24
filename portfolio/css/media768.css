@@ -55,6 +55,19 @@
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
+    .burger-menu-window {
+        transition: display 2s;
+    }
+
+    .burger-menu-window {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .burger-menu-window.open {
+        display: flex;
+    }
+
     .header-container {
         background-position: -5px -30px;
         background-size: auto 620px;
@@ -88,8 +101,7 @@
 
     .skills-items {
         padding-top: 54px;
-        padding-left: 59px;
-        justify-content: normal;
+        justify-content: center;
         gap: 45px;
     }
 
@@ -198,6 +210,39 @@
     footer .rss {
         margin-top: -15px;
         margin-left: -18px;
+    }
+
+    .nav-burger-menu {
+        margin: 0 auto;
+    }
+
+    .burger-menu-window {
+        /*display: flex;*/
+        position: absolute;
+        background-color: var(--black);
+        width: calc(100% - 148px);
+        height: 100vh;
+        top: 0;
+        right: 0;
+    }
+
+    .nav-burger-menu .nav-list-burger-menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 35px;
+        line-height: 88px;
+        padding-top: 128px;
+        padding-right: 216px;
+    }
+
+    .nav-burger-menu .nav-link-burger-menu {
+        color: var(--white);
+        transition: .5s;
+    }
+
+    .nav-burger-menu .nav-link-burger-menu:hover {
+        color: var(--gold);
+        transition: .5s;
     }
 
 }

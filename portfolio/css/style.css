@@ -485,8 +485,15 @@ footer a {
     -webkit-mask-image: url('../assets/svg/pinterest.svg');
 }
 
-.burger-menu {
+.burger-menu,
+.burger-menu-window {
     display: none;
 }
+
+.burger-menu-window {
+    opacity: 0;
+    transition: 1s;
+}
+
 
 

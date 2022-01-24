@@ -1,0 +1,58 @@
+@media (max-width: 480px) {
+
+    :root {
+        --font-size-h1: 25px;
+        --font-size-h2: 25px;
+        --font-size-main: 15px;
+        --font-size-small: 14px;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .hero-container p {
+        width: 100%;
+    }
+
+    .hero-container button {
+        margin-top: 20px;
+    }
+
+    .photos img {
+        width: 100%;
+    }
+
+    .contacts-form {
+        width: 299px;
+        padding-left: 60px;
+    }
+
+    .contacts-form input,
+    .contacts-form textarea {
+        width: 70%;
+    }
+
+    .contacts-btn {
+        margin-left: 20px;
+    }
+
+    .player .picture {
+        height: 335px;
+        background-position: -32px -89px;
+        background-size: auto 335px;
+    }
+
+    .player .play {
+        top: 94px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-burger-menu .nav-list-burger-menu {
+        padding-top: 50px;
+        padding-right: 0;
+        font-size: var(--font-size-h2);
+    }
+
+}
