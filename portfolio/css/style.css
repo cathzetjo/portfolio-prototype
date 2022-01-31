@@ -512,14 +512,25 @@ footer a {
     transition: 1s;
 }
 
-/*.light-theme {*/
-/*    background-color: var(--white);*/
-/*    color: var(--black);*/
-/*}*/
+.slide:hover, .slide:focus{
+    box-shadow: inset 13em 0 0 0 #9a4e1e;
+    border-radius: 5px;
 
-/*.light-theme:hover {*/
-/*    color: var(--black);*/
-/*}*/
+}
+
+.raise:hover {
+    box-shadow: 0 1.1em 1.1em -0.3em #7e6f59;
+    border-radius: 5px;
+    transform: translatey(-0.7em);
+}
+
+.pulse:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 0 1em rgba(255, 255, 255, 0);
+    animation: pulse 0.9s;
+}
 
 
-
+@keyframes pulse{
+    0%{box-shadow: 0 0 0 0 #7e6f59}
+}
