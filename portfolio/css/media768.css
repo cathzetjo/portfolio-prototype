@@ -92,7 +92,6 @@
     .section-title {
         width: 48%;
         padding-top: 100px;
-        background-image: linear-gradient(to top, #000 29px, #bdae82 32px, #bdae82 0px, #000 0px);
     }
 
     .skills-items {
@@ -213,7 +212,6 @@
     }
 
     .burger-menu-window {
-        /*display: flex;*/
         position: absolute;
         background-color: var(--body-color);
         width: calc(100% - 148px);
