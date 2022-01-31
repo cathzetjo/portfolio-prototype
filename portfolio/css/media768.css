@@ -9,10 +9,6 @@
         display: none;
     }
 
-    .logo {
-        margin-right: 59%;
-    }
-
     .header-container {
         padding: 20px 0 0 60px;
     }
@@ -37,7 +33,7 @@
     .burger-menu span {
         width: 126%;
         height: 3px;
-        background: var(--white);
+        background: var(--font-color-main);
         margin: 4px 0;
         z-index: 2;
         transition: all 0.3s ease-in-out;
@@ -219,7 +215,7 @@
     .burger-menu-window {
         /*display: flex;*/
         position: absolute;
-        background-color: var(--black);
+        background-color: var(--body-color);
         width: calc(100% - 148px);
         height: 100vh;
         top: 0;
@@ -236,7 +232,7 @@
     }
 
     .nav-burger-menu .nav-link-burger-menu {
-        color: var(--white);
+        color: var(--font-color-main);
         transition: .5s;
     }
 
