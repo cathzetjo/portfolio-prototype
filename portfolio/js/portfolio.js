@@ -1,3 +1,7 @@
+import changeClassActive from './index.js';
+
+function portfolio() {
+
 const portfolioImages = document.querySelectorAll('.portfolio-image');
 const portfolioBtns = document.querySelector('.portfolio-buttons');
 
@@ -10,3 +14,6 @@ function changeImage(event) {
 }
 portfolioBtns.addEventListener('click', changeImage);
 
+}
+
+export default portfolio;

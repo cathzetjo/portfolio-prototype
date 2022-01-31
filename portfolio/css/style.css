@@ -136,14 +136,15 @@ h3 {
     padding: 0 10px;
 }
 
-.header-container .lng .en {
-    color: var(--gold);
-    cursor: default;
-}
-
-.header-container .lng .ru {
+.header-container .lng .lang {
     color: var(--white);
     cursor: pointer;
+    transition: .5s;
+}
+
+.header-container .lng .active {
+    color: var(--gold);
+    cursor: default;
     transition: .5s;
 }
 
