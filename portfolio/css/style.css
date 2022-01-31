@@ -427,7 +427,7 @@ textarea {
     font-size: 20px;
 }
 
-.contacts-btn {
+.contacts-form button {
     width: 220px;
     height: 53px;
     border: none;
@@ -435,6 +435,7 @@ textarea {
     cursor: pointer;
     background-color: var(--gold);
     transition: .8s;
+    color: var(--body-color);
 }
 
 ::placeholder {
