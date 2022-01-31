@@ -260,12 +260,12 @@ h2 span {
     transition: .8s;
 }
 
-.portfolio-buttons .button-not-active {
+.portfolio-buttons .portfolio-btn {
     background-color: transparent;
     color: var(--gold);
 }
 
-.portfolio-buttons .button-active {
+.portfolio-buttons .active {
     background-color: var(--gold);
     color: var(--black);
 }
