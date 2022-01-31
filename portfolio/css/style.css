@@ -2,8 +2,8 @@
 @import "scrollbar.css";
 
 :root {
-    --black: #000000;
-    --white: #FFFFFF;
+    --body-color: #000000;
+    --font-color-main: #FFFFFF;
     --gold: #bdae82;
     --font-size-h1: 60px;
     --font-size-h2: 40px;
@@ -26,8 +26,8 @@ body {
     padding: 0;
     font-size: var(--font-size-main);
     font-family: var(--font-main-reg);
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--font-color-main);
+    background-color: var(--body-color);
 }
 
 ul li {
@@ -54,7 +54,7 @@ p, ul, h1, h2, h3, h4, pre {
 h1 {
     font-size: var(--font-size-h1);
     font-family: var(--font-h-bold);
-    color: var(--white);
+    color: var(--font-color-main);
 }
 
 h2 {
@@ -69,7 +69,7 @@ h3 {
 }
 
 .container button:hover {
-    color: var(--white);
+    color: var(--font-color-main);
     transition: .8s;
 }
 
@@ -94,10 +94,25 @@ h3 {
     min-width: 50px;
     width: 50px;
     height: 50px;
-    background-color: var(--white);
+    background-color: var(--font-color-main);
     -webkit-mask-image: url('../assets/svg/logo.svg');
     -webkit-mask-size: cover;
     transition: 1s;
+}
+
+.theme-switcher:hover {
+    background-color: var(--gold);
+}
+
+.theme-switcher {
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--font-color-main);
+    -webkit-mask-image: url('../assets/svg/carbon_sun.svg');
+    -webkit-mask-size: cover;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .logo:hover {
@@ -105,7 +120,7 @@ h3 {
 }
 
 .nav {
-    margin-left: 56%;
+    margin-left: 40%;
     align-self: center;
 }
 
@@ -118,7 +133,7 @@ h3 {
 }
 
 .nav .nav-link {
-    color: var(--white);
+    color: var(--font-color-main);
     transition: .5s;
 }
 
@@ -137,7 +152,7 @@ h3 {
 }
 
 .header-container .lng .lang {
-    color: var(--white);
+    color: var(--font-color-main);
     cursor: pointer;
     transition: .5s;
 }
@@ -171,7 +186,7 @@ h3 {
     width: 219px;
     height: 54px;
     background-color: var(--gold);
-    color: var(--black);
+    color: var(--body-color);
     font-size: var(--font-size-main);
     border: none;
     cursor: pointer;
@@ -180,14 +195,14 @@ h3 {
 
 .section-title {
     width: 49%;
-    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+    background-image: linear-gradient(to top, var(--body-color) 39px, var(--gold) 39px, #bdae82 41px, var(--body-color) 41px);
     text-align: center;
     margin: 0 auto;
     padding-top: 115px;
 }
 
 h2 span {
-    background-color: var(--black);
+    background-color: var(--body-color);
     padding: 0 20px;
     vertical-align: super;
 }
@@ -268,7 +283,7 @@ h2 span {
 
 .portfolio-buttons .active {
     background-color: var(--gold);
-    color: var(--black);
+    color: var(--body-color);
 }
 
 .photos {
@@ -302,7 +317,7 @@ h2 span {
     top: 289px;
     width: 129.86px;
     height: 130px;
-    background-color: var(--white);
+    background-color: var(--font-color-main);
     -webkit-mask-image: url('../assets/svg/play.svg');
     -webkit-mask-size: cover;
     transition: 1s;
@@ -412,7 +427,7 @@ textarea {
     font-size: 20px;
 }
 
-.contacts-btn {
+.contacts-form button {
     width: 220px;
     height: 53px;
     border: none;
@@ -420,6 +435,7 @@ textarea {
     cursor: pointer;
     background-color: var(--gold);
     transition: .8s;
+    color: var(--body-color);
 }
 
 ::placeholder {
@@ -444,7 +460,7 @@ footer .general-info {
 
 footer p,
 footer a {
-    color: var(--white);
+    color: var(--font-color-main);
 }
 
 .social-links {
@@ -459,7 +475,7 @@ footer a {
 .pinterest {
     width: 32px;
     height: 32px;
-    background-color: var(--white);
+    background-color: var(--font-color-main);
     -webkit-mask-size: cover;
     transition: 1s;
     cursor: pointer;
@@ -495,6 +511,15 @@ footer a {
     opacity: 0;
     transition: 1s;
 }
+
+/*.light-theme {*/
+/*    background-color: var(--white);*/
+/*    color: var(--black);*/
+/*}*/
+
+/*.light-theme:hover {*/
+/*    color: var(--black);*/
+/*}*/
 
 
 

@@ -7,8 +7,15 @@
         --font-size-small: 14px;
     }
 
-    .logo {
-        margin-right: 0;
+    .logo,
+    .theme-switcher {
+        min-width: 30px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-container {
+        padding-left: 15%;
     }
 
     .hero-container p {
@@ -25,7 +32,7 @@
 
     .contacts-form {
         width: 299px;
-        padding-left: 60px;
+        padding-left: 0;
     }
 
     .contacts-form input,
